@@ -1,6 +1,7 @@
 # RPI-RP2_genkan_mimamoru_kun
 It is a device using Raspberry Pi Pico W that aggregates the detection results of the human sensor and reports it on LINE.
 
+#機能
 「玄関みまもるくん」（Raspberry Pi Pico W を使用した玄関の出入り監視装置）
 
 人感センサーの反応回数を記録し、1日1回、1時間単位で集計してLINE通知してくれます。
@@ -10,18 +11,24 @@ It is a device using Raspberry Pi Pico W that aggregates the detection results o
 ・指定時間内、初感知時のリアルタイムLINE通知（平日のみ。人感センサーが連続3秒反応があった時）
 ・毎時計測値のpico内ログ記録（急に電源が落ちても過去1日の計測値を確認出来る）
 
-microPythonのコードを公開します。
+-使用部品
+・Raspberry Pi Pico W
+・人感センサー(HC-SR501)
 
+-使い方
+main.py と同じ場所に以下の参考サイトにある tiny_line.py を置いてください。
 main.pyの以下を忘れずに書き換えてください。
 
 「自宅Wi-FiのSSIDとパスワードを入力」
 「LINE tokenを入力」
 
-main.py と同じ場所に以下の参考サイトにある tiny_line.py を置いてください。
-また、LINE tokenの取得方法についても
+LINE tokenの取得方法については以下をご覧ください。
 
 【参考サイト】
 sozorablog | Raspberry Piで電子工作をはじめよう
 https://sozorablog.com/raspberry-pi-pico-w-review/
 
-そぞらさんのサイトを全面的に参考にさせていただいております。コード掲載のご許可もいただきありがとうございます。
+本コードは、そぞらさんのサイト（sozorablog）を全面的に参考にさせていただいております。コード掲載のご許可もいただきありがとうございます。
+
+-注意点
+
