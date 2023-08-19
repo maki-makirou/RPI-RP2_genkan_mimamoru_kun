@@ -7,6 +7,8 @@ It is a device using Raspberry Pi Pico W that aggregates the detection results o
 
 <img src="https://github.com/maki-makirou/RPI-RP2_genkan_mimamoru_kun/blob/main/IMG_5380.JPG" width="320px">　　<img src="https://github.com/maki-makirou/RPI-RP2_genkan_mimamoru_kun/blob/main/IMG_5493.JPG" width="320px">
 
+<img src="https://github.com/maki-makirou/RPI-RP2_genkan_mimamoru_kun/blob/main/IMG_5575.jpg" width="320px">
+
 人感センサーの反応回数（測定間隔1秒）を記録し、1日1回、1時間単位で集計してLINE通知してくれます。
 その他に以下の機能があります。
 
